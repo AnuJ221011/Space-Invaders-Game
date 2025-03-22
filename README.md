@@ -4,7 +4,7 @@ A simple **Space Invaders** game built using **HTML, CSS, and JavaScript** with 
 Dodge and destroy enemy aliens while scoring points! 🚀👹💥  
 
 ## Screenshot
-![Game Screenshot]
+![Game Screenshot](https://github.com/AnuJ221011/Space-Invaders-Game/blob/main/image.png)
 
 ## 🛠️ Technologies Used
 - **HTML** → Structure the game elements  
@@ -26,6 +26,9 @@ Dodge and destroy enemy aliens while scoring points! 🚀👹💥
 4. **Pause Game** → Press **P**  
 5. **Resume Game** → Press **R**  
 6. **Restart After Game Over** → Click the **Restart** button  
+
+## ▶️ Play Now!  
+🔗 **[Click Here to Play](https://space-invaders-game-three.vercel.app/)** 🚀🔥  
 
 ## 🚀 How to Run Locally?
 1. **Download the files** or **Clone the repo**  
