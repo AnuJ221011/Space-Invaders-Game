@@ -7,17 +7,27 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>🎮 Space Invaders Game</h1>
-    <div class="game-container">
+    <!-- Start Screen -->
+    <div id="startScreen">
+        <div class="start-screen-content">
+            <h1>Welcome to Space Invaders Game 🎮</h1>
+            <button onclick="startGame()">Start Game</button>
+        </div>
+    </div>
+
+    <!-- Game Container -->
+    <div class="game-container" id="gameContainer" style="display: none;">
         <canvas id="gameCanvas"></canvas>
         <div id="gameOverScreen">
             <h2>Game Over!</h2>
             <p>Your Score: <span id="finalScore">0</span></p>
             <button onclick="restartGame()">Restart</button>
         </div>
+        <button id="exitButton" onclick="exitGame()">Exit</button> 
     </div>
 
-    <p>Controls: Move with ← & → | Shoot with Spacebar | Pause with P | Resume with R</p>
+    <p id="controls">Controls: Move with ← & → | Shoot with Spacebar | Pause with P | Resume with R</p>
     <script src="script.js"></script>
 </body>
+
 </html>

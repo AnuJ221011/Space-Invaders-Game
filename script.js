@@ -2,7 +2,7 @@ const canvas = document.getElementById("gameCanvas");
 const ctx = canvas.getContext("2d");
 
 canvas.width = 500;
-canvas.height = 600;
+canvas.height = 620;
 
 let player, bullets, enemies, explosions, score, gameRunning;
 
@@ -126,8 +126,8 @@ function initGame() {
     // Initial set of enemies
     spawnEnemies();
 
-    // Spawn new enemies every 5 seconds
-    setInterval(spawnEnemies, 5000);
+    // Spawn new enemies every 4 seconds
+    setInterval(spawnEnemies, 4000);
 
     animate();
 }
@@ -222,4 +222,15 @@ function restartGame() {
 }
 
 // Start the Game
-initGame();
+function startGame() {
+    document.getElementById("startScreen").style.display = "none"; // Hide start screen
+    document.getElementById("gameContainer").style.display = "block"; // Show game
+    initGame(); // Start game logic
+}
+
+function exitGame() {
+    document.getElementById("gameContainer").style.display = "none"; // Hide game
+    document.getElementById("startScreen").style.display = "flex"; // Show start screen
+}
+
+

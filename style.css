@@ -7,7 +7,7 @@
 }
 
 body {
-    background: linear-gradient(45deg, #000428, #004e92);
+    background: url('game3.webp') no-repeat center center/cover; 
     color: white;
     display: flex;
     flex-direction: column;
@@ -21,13 +21,47 @@ h1 {
     margin-bottom: 10px;
 }
 
+#startScreen {
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: url('game3.webp') no-repeat center center/cover; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.start-screen-content {
+    text-align: center;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+#startButton {
+    background: #ffcc00;
+    border: none;
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#startButton:hover {
+    background: #ff9900;
+}
+
+
+
 .game-container {
     position: relative;
     border: 3px solid white;
     width: 500px;
-    height: 600px;
+    height: 580px;
     background: black;
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 canvas {
@@ -57,6 +91,32 @@ button {
 
 button:hover {
     background: #ff9900;
+}
+
+#exitButton {
+    position: absolute;
+    top: 0px;
+    right: 15px;
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#exitButton:hover {
+    background: darkred;
+}
+
+
+#controls {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    padding: 5px;
+    font-weight: 700;
 }
 
 
