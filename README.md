@@ -1,18 +1,18 @@
 # 🎮 Space Invaders Game
 
-A simple **Space Invaders** game built using **HTML, CSS, and JavaScript** with a fun emoji-based UI.  
-Dodge and destroy enemy aliens while scoring points! 🚀👹💥  
+A simple **Space Invaders** game built using **HTML, CSS, and JavaScript** with a fun emoji-based UI. The game utilizes the **Canvas API** for rendering and animations. Dodge and destroy enemy aliens while scoring points! 🚀👹💥  
 
 ## Screenshot
 ![Game Screenshot](https://github.com/AnuJ221011/Space-Invaders-Game/blob/main/image.png)
 
 ## 🛠️ Technologies Used
-- **HTML** → Structure the game elements  
+- **HTML** → Structure the game elements with the **Canvas API**
 - **CSS** → Styling & background effects  
-- **JavaScript** → Game logic & animations  
+- **JavaScript** → Game logic & animations using **Canvas API**
 
 ## 🎯 Features
 ✅ **Player Controls:** Move left, right & shoot bullets  
+✅ **Canvas Rendering:** Smooth animations for player, bullets, and enemies  
 ✅ **Enemies:** Randomly spawn & move downwards  
 ✅ **Bullets:** Destroy enemies to score points  
 ✅ **Explosions:** Animated blast effect on enemy hit 💥  
@@ -35,3 +35,4 @@ Dodge and destroy enemy aliens while scoring points! 🚀👹💥
    ```sh
    git clone https://github.com/AnuJ221011/Space-Invaders-Game.git
    cd space-invaders-game
+
